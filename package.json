@@ -1,5 +1,5 @@
 {
-  "name": "toLatin",
+  "name": "to-latin",
   "version": "1.0.0",
   "description": "Converting letters in a string to latin letter",
   "main": "index.js",
