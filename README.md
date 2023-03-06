@@ -1,4 +1,6 @@
-# toLatin
+# latin-converter
+
+Repository: https://github.com/syytruong/latin-converter
 
 ## Install the package
 npm i toLatin
@@ -8,5 +10,6 @@ npm i toLatin
 2. Finnish (fi)
 
 ## How to use:
-string.toLatin('vi', 'Tiếng việt') // Tieng viet
-string.toLatin('fi', 'Työ') // Tyo
+- string.toLatin('vi', 'Tiếng việt') // Tieng viet
+
+- string.toLatin('fi', 'Työ') // Tyo
