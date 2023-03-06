@@ -1,15 +1,7 @@
-const normalizedCode = {
-    vi: 'NFD',
-    fi: 'NFD',
-};
-
-const latinizedPattern = {
-    vi: /[\u0300-\u036f]/g,
-    fi: /[^\u0000-\u007F]+/g
-}
+import { NORMALIZED_CODE, LATINIZED_PATTERN} from './utils/constants'
 
 export default function toLatin(language, text) {
-    const normalized = text.normalized(normalizedCode[language]);
-    const latinized = normalized.replace(latinizedPattern[language], '');
+    const normalized = text.normalized(NORMALIZED_CODE[language]);
+    const latinized = normalized.replace(LATINIZED_PATTERN[language], '');
     return latinized;
 }
