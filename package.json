@@ -1,6 +1,6 @@
 {
   "name": "latin-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converting letters in a string to latin letter",
   "main": "index.js",
   "scripts": {

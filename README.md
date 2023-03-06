@@ -3,7 +3,7 @@
 Repository: https://github.com/syytruong/latin-converter
 
 ## Install the package
-npm i toLatin
+npm i latin-converter
 
 ## Supported languages:
 1. Vietnamese (vi)
