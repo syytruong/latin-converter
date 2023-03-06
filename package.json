@@ -1,7 +1,7 @@
 {
   "name": "toLatin",
   "version": "1.0.0",
-  "description": "",
+  "description": "Converting letters in a string to latin letter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
